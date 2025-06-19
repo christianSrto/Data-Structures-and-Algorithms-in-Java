@@ -2,6 +2,10 @@ import java.util.LinkedList;
 
 public class linked_lists {
     public static void main(String[] args) {
+        // Linked List = stores Nodes in 2 parts (data + address)
+        //               nodes are in non-consecutive memory locations
+        //               Elements are linked using pointers
+
         LinkedList<String> linkedList = new LinkedList<String>();
        
         /* 
